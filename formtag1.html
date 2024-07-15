@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="../08-07-2024/loginresponse.html" method="post" enctype="multipart/form-data">
+       <fieldset>
+        <legend>Registration form</legend>
+        <div>
+        <label for="fname">First Name</label><br>
+        <input type="text" id="fname" name="first name" placeholder="enter first name" required maxlength="8" autofocus>
+        </div><br>
+        <div>
+        <label for="lname">Last Name</label><br>
+        <input type="text" id="lname" name="last name" placeholder="enter last name" required minlength="8" maxlength="16">
+        </div>
+        <h3>Gender</h3>
+        <div>
+            <label for="male">Male</label>
+            &ensp;&ensp;<input type="radio" name="gender" id="male">
+        </div>
+        <div>
+            <label for="female">Female</label>
+            &ensp;<input type="radio" name="gender" id="female">
+        </div>
+        <div>
+            <label for="others">Others</label>
+            &ensp;<input type="radio" name="gender" id="others">
+        </div><br>
+        <div>
+            <label for="college">College Name</label> <br>
+            <input type="text" id="college" name="college name" placeholder="MRCET" required readonly autofocus>
+        </div><br>
+        
+        <div>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="enter email" required>
+        </div><br>
+        <div>
+            <label for="mobile no">Mobile No</label> <br>
+            <input type="number" id="mobile no" name="mobile no" placeholder="enter mobile no" required>
+        </div><br>
+        <div>
+            <label for="kphb">Address</label><br>
+            <input type="text" id="kphb" name="hyderabad" placeholder="kphb colony" disabled><br>
+        </div><br>
+        <div>
+            <label for="Document">Upload file here &#128071;</label><br>
+            <input type="file" name="doc" id="Document" accept=".pdf,.DOCTYPE,.mp4" multiple>
+        </div><br>
+        <div>
+            <input type="checkbox">Above given details are True
+        </div><br>
+        <div>
+            
+            <input type="submit" value="register here" >
+        </div>
+       </fieldset>
+    </form>
+</body>
+</html>
